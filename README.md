@@ -9,13 +9,13 @@ Design Process
 
 Features
 --------
-##Existing Features
+### Existing Features
 -   navigation bar to navigate around the page
 -   search bar to search city/country to find out about Covid-19 situation there
 -   interactive map to that shows Covid-19 situation around Singapore
 -   page that shows facts/news about Covid-19
 
-##Features Left TO Implement
+### Features Left To Implement
 
 Technologies Used
 -----------------
