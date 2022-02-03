@@ -29,4 +29,5 @@ Testing
 
 Credits
 -------
-
+-  [Coronavirus](https://www.who.int/health-topics/coronavirus#tab=tab_1)
+-  [History of Covid](https://en.wikipedia.org/wiki/COVID-19#History)

@@ -1,28 +1,28 @@
-.topnav {
-    overflow: hidden;
-    background-color: rgb(54, 53, 53);
+  .websitecolour{
+    background-color: rgb(245, 234, 245);
   }
-  
-  .topnav a {
-    float: left;
-    display: block; 
-    padding: 14px 16px; /* get the thickness of the navigation bar*/
-    text-decoration: none; 
-    font-size: 17px; 
-    color:rgb(231, 231, 231);
+  .navheader{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
   }
-
-  .boxcolour{
-    background-color: rgb(47, 255, 82);
+  .navwording{
     color: black;
+    font-size: large;
   }
-  
-  .topnav a:hover {
-    background-color: lightgray;
-    color:rgb(14, 35, 66);
+  h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
   }
-  
-  .topnav a.active {
-    color: white;
+  h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
   }
-  
+  h3{
+    font-family: 'Roboto', sans-serif;
+  }
+  p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+  }
