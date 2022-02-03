@@ -1,8 +1,3 @@
-  .navbarfixed{
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-  }
   .websitecolour{
     background-color: rgb(245, 234, 245);
   }
@@ -13,13 +8,12 @@
   }
   .navwording{
     color: black;
-    font-size: large;
+    font-size: 25px;
   }
   h1{
-    padding-top: 85px;
+    padding-top: 20px;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
+    font-family: 'Noto Sans', sans-serif;
   }
   h2{
     text-align: center;
@@ -33,4 +27,16 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 23px;
     margin: 20px;
+  }
+
+  .image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    border-radius: 5%;
+  }
+  .fonthovercolour :hover{
+    color: rgb(117, 116, 116);
   }
