@@ -1,0 +1,28 @@
+.topnav {
+    overflow: hidden;
+    background-color: rgb(54, 53, 53);
+  }
+  
+  .topnav a {
+    float: left;
+    display: block; 
+    padding: 14px 16px; /* get the thickness of the navigation bar*/
+    text-decoration: none; 
+    font-size: 17px; 
+    color:rgb(231, 231, 231);
+  }
+
+  .boxcolour{
+    background-color: rgb(47, 255, 82);
+    color: black;
+  }
+  
+  .topnav a:hover {
+    background-color: lightgray;
+    color:rgb(14, 35, 66);
+  }
+  
+  .topnav a.active {
+    color: white;
+  }
+  
