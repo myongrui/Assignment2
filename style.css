@@ -20,9 +20,11 @@
     font-family: 'Montserrat', sans-serif;
   }
   h3{
+    margin: 20px;
     font-family: 'Roboto', sans-serif;
   }
   p{
     font-family: 'Open Sans', sans-serif;
     font-size: 23px;
+    margin: 20px;
   }
