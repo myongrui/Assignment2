@@ -1,3 +1,8 @@
+  .navbarfixed{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+  }
   .websitecolour{
     background-color: rgb(245, 234, 245);
   }
@@ -11,6 +16,7 @@
     font-size: large;
   }
   h1{
+    padding-top: 85px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
