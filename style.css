@@ -21,7 +21,8 @@
   }
   h3{
     margin: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
   }
   p{
     font-family: 'Open Sans', sans-serif;
