@@ -1,3 +1,6 @@
+@media (max-width: 575.98px) {
+  
+}
   .websitecolour{
     background-color: rgb(245, 234, 245);
   }
@@ -40,4 +43,15 @@
   }
   .fonthovercolour :hover{
     color: rgb(117, 116, 116);
+  }
+  .sgmap{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .centralizesearchfeat{
+    display:flex; 
+    justify-content: center; 
   }
