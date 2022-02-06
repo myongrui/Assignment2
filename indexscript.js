@@ -75,3 +75,26 @@ g.append("path")
     .attr("d", line);
 }
 
+let covidapi ='https://disease.sh/v3/covid-19/all';
+
+fetch(covidapi)
+  .then(response => response.json())
+  .then(function(data){
+    console.log(data)
+    let cases = data.cases
+    let deaths = data.deaths
+    let recovered = data.recovered
+    let newc = data.todayCases
+    let newd = data.todayDeaths
+    let newr = data.todayRecovered
+    $('p.livecase').text("Cases")
+    $('p.livecase').append("<br />" + cases)
+    $('p.livecase').append("<br /><i>+" + newc + "</i>")
+    $('p.livedeaths').text("Deaths")
+    $('p.livedeaths').append("<br />" + deaths)
+    $('p.livedeaths').append("<br /><i>+" + newd + "</i>")
+    $('p.liverecovered').text("Recovered")
+    $('p.liverecovered').append("<br />" + recovered)
+    $('p.liverecovered').append("<br /><em>+" + newr + "</em>")
+  })
+  

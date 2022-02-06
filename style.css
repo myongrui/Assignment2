@@ -26,10 +26,11 @@ h3 {
   font-family: "Prompt", sans-serif;
   font-weight: bold;
 }
+
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 23px;
-  margin: 20px;
+  /*margin: 20px;*/
 }
 
 .image {

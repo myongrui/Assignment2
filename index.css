@@ -1,6 +1,28 @@
 .container {
   display: flex;
-  flex-flow: row, nowrap;
-  width: 100vw;
+  flex-flow: row, wrap;
   margin: 0;
+}
+
+.container p {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  width: 750px;
+}
+
+.container p i {
+  color: rgba(255, 21, 0, 0.5);
+  font-weight: 1000;
+  font-size: 0.75em;
+  margin: 0;
+  padding: 0;
+}
+
+.container p em {
+  color: rgba(0, 255, 55, 0.5);
+  font-weight: 1000;
+  font-size: 0.75em;
+  margin: 0;
+  padding: 0;
 }
