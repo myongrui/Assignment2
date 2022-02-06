@@ -1,57 +1,56 @@
 @media (max-width: 575.98px) {
-  
 }
-  .websitecolour{
-    background-color: rgb(245, 234, 245);
-  }
-  .navheader{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 25px;
-  }
-  .navwording{
-    color: black;
-    font-size: 25px;
-  }
-  h1{
-    padding-top: 20px;
-    text-align: center;
-    font-family: 'Noto Sans', sans-serif;
-  }
-  h2{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-  }
-  h3{
-    margin: 20px;
-    font-family: 'Prompt', sans-serif;
-    font-weight: bold;
-  }
-  p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 23px;
-    margin: 20px;
-  }
+.websitecolour {
+  background-color: rgb(245, 234, 245);
+}
+.navheader {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 25px;
+}
+.navwording {
+  color: black;
+  font-size: 25px;
+}
+h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+}
+h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  margin: 20px;
+  font-family: "Prompt", sans-serif;
+  font-weight: bold;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 23px;
+  margin: 20px;
+}
 
-  .image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    height: auto;
-    border-radius: 5%;
-  }
-  .fonthovercolour :hover{
-    color: rgb(117, 116, 116);
-  }
-  .sgmap{
-    width: 50%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-  .centralizesearchfeat{
-    display:flex; 
-    justify-content: center; 
-  }
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: auto;
+  border-radius: 5%;
+}
+.fonthovercolour :hover {
+  color: rgb(117, 116, 116);
+}
+.sgmap {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.centralizesearchfeat {
+  display: flex;
+  justify-content: center;
+}
