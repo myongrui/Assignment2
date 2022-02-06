@@ -88,13 +88,13 @@ fetch(covidapi)
     let newd = data.todayDeaths
     let newr = data.todayRecovered
     $('p.livecase').text("Cases")
-    $('p.livecase').append("<br />" + cases)
+    $('p.livecase').append("<br /><strong>" + cases + "</strong>")
     $('p.livecase').append("<br /><i>+" + newc + "</i>")
     $('p.livedeaths').text("Deaths")
-    $('p.livedeaths').append("<br />" + deaths)
+    $('p.livedeaths').append("<br /><strong>" + deaths + "</strong>")
     $('p.livedeaths').append("<br /><i>+" + newd + "</i>")
     $('p.liverecovered').text("Recovered")
-    $('p.liverecovered').append("<br />" + recovered)
+    $('p.liverecovered').append("<br /><strong>" + recovered + "</strong>")
     $('p.liverecovered').append("<br /><em>+" + newr + "</em>")
   })
   

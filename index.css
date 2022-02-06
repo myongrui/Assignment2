@@ -9,10 +9,11 @@
   padding: 10px;
   margin: 10px;
   width: 750px;
+  box-shadow: 0 0 5px;
 }
 
 .container p i {
-  color: rgba(255, 21, 0, 0.5);
+  color: rgba(255, 21, 0, 1);
   font-weight: 1000;
   font-size: 0.75em;
   margin: 0;
@@ -20,7 +21,7 @@
 }
 
 .container p em {
-  color: rgba(0, 255, 55, 0.5);
+  color: rgba(0, 255, 55, 1);
   font-weight: 1000;
   font-size: 0.75em;
   margin: 0;
