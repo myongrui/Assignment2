@@ -14,10 +14,10 @@ fetch(api)
 
 function parseData(data) {
     var arr = [];
-    for (var i in data.deaths) {
+    for (var i in data.cases) {
         arr.push({
             date: new Date(i), 
-            value: +data.deaths [i] 
+            value: +data.cases [i] 
         });
     }
     return arr;
