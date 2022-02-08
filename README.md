@@ -24,7 +24,7 @@ Technologies Used
 -   [HTML,CSS](https://html.com)
     -   This project's website is designed and styled using **HTML** and **CSS**
 -   [D3.js](https://d3js.org/)
-    -   This project uses the **JavaScript** D3.js to produce dynamic, interactive data visualizations 
+    -   This project uses the **JavaScript** library D3.js to produce dynamic, interactive data visualizations 
 
 Testing
 -------
