@@ -30,9 +30,9 @@ Testing
 Credits
 -------
 -  [Coronavirus](https://www.who.int/health-topics/coronavirus#tab=tab_1)
-    -   World Health Organization website
+    -   World Health Organization Covid-19 tab
 -  [History of Covid](https://en.wikipedia.org/wiki/COVID-19#History)
-    -   Wikipedia
+    -   Wikipedia Covid-19 page
 -  [Healthline](https://www.healthline.com/health/coronavirus-covid-19#)
     -   Everything You Should Know About the 2019 Coronavirus and COVID-19
 -  [TheStraitsTimes](https://www.straitstimes.com/singapore/health)
