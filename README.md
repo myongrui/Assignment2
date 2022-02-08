@@ -33,3 +33,9 @@ Credits
     -   World Health Organization website
 -  [History of Covid](https://en.wikipedia.org/wiki/COVID-19#History)
     -   Wikipedia
+-  [Healthline](https://www.healthline.com/health/coronavirus-covid-19#)
+    -   Everything You Should Know About the 2019 Coronavirus and COVID-19
+-  [TheStraitsTimes](https://www.straitstimes.com/singapore/health)
+    -   The Straits Times health tab
+-  [Yahoo](https://sg.news.yahoo.com/health/)
+    -   Yahoo Covid-19 updates
