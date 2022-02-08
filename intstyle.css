@@ -1,0 +1,10 @@
+svg path:hover {
+  fill: black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+svg path:active {
+  fill: yellow;
+  cursor: pointer;
+}
