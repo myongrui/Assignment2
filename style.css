@@ -2,15 +2,13 @@
 }
 .websitecolour {
   background-color: rgb(245, 234, 245);
-}
-.navheader {
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bold;
-  font-size: 25px;
+  margin-bottom: 15px;
 }
 .navwording {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
   color: black;
-  font-size: 25px;
+  font-size: 20px;
 }
 h1 {
   padding-top: 20px;

@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="index.css" rel="stylesheet" type="text/css">
-    <link href="ttp://visjs.org/dist/vis.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans&family=Open+Sans:wght@300&family=Prompt:wght@200&family=Roboto&display=swap" rel="stylesheet">
   </head>
 
@@ -15,7 +14,7 @@
 
   <body class = "websitecolour">
     <nav class="navbar sticky-top navbar-expand fonthovercolour" style="background-color: #4FFFB0;">
-      <a class="navbar-brand navheader" style="pointer-events:none;">Covid-19</a>
+      <a class="navbar-brand navheader" href="index.html"><img src ="images/covid-19-cartoon.png"  alt="Covid-19"  style="height:55px;"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -26,12 +25,12 @@
           </li>
           <li class="nav-item">
             <li class="nav-item">
-              <a class="nav-link navwording" href="intcase.html">International Cases</a>
+              <a class="nav-link navwording" href="intcase.html">International</a>
             </li>
-            <a class="nav-link navwording" href="localcase.html">Local Cases</a>
+            <a class="nav-link navwording" href="localcase.html">Local</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link navwording" href="more.html">More</a>
+            <a class="nav-link navwording" href="news.html">News</a>
           </li>
         </ul>
       </div>
@@ -39,7 +38,7 @@
 
     <h1>Welcome!</h1>
     <h2> This is a Covid-19 Encyclopedia where we tell you all you need to know about this virus that has been destroying our lives, also providing live statistics about the virus</h2>
-    <img alt="Covid-19" src ="images/covid-19.jpg" class="image">
+    <a href="#imagelink"><img src ="images/covid-19.jpg" alt="Covid-19" title="Click to go to graph and live data for Covid-19 worldwide" class="image"></a>
 
     <h3><u>What exactly is Covid-19 and how does it spread?</u></h3>
     <p>Otherwise known as Coronavirus disease, is an infectious disease caused by the SARS-CoV-2 Virus. 
@@ -52,26 +51,57 @@
       Phylogenetics estimate that SARS-CoV-2 arose in October or November 2019, phylogenetic algorithm analysis
       have implied that it may have already been circulating in Guangdong before Wuhan, where the first human infection was confirmed.</p>
 
-    <h3><u>Timeline of Covid-19</u></h3>
-    <p>The earliest reported onset of symptoms was on <b>1 December 2019</b>, on <b>18 December 2019</b>, 
-      traces of the virus have been found in wastewater samples were collected in Milan and Turin,Italy. In <b>20 January 2020</b>, 
-      first human-to-human transmission was reported by WHO and Chinese authorities. On <b>30 January 2020</b>, the World Health Organization declared COVID-19 a Public Health Emergency of International Concern in which by then, 
-      the outbreak spread by a factor of 100 to 200 times. </p>
-    <div id="visualisation"></div>
+    <h3 id="imagelink" style="margin-bottom:30px;"><u>Timeline of Covid-19</u></h3>
+    <section class="timeline" style="margin-bottom: 40px;">
+      <ol>
+        <li>
+          <div>
+            <time><u>1 December 2019</u></time><br>Earliest onset of symptoms reported
+          </div>
+        </li>
+        <li>
+          <div>
+            <time><u>18 December 2019</u></time><br>Traces of virus found in waste water samples in Milan and Turin, Italy
+          </div>
+        </li>
+        <li>
+          <div>
+            <time><u>20 January 2020</u></time><br>First human-to-human transmission reported
+        </li>
+        <li>
+          <div>
+            <time><u>30 January 2020</u></time><br>World Health Organization declared Public Health Emergency of International Concern
+          </div>
+        </li>
+        <li>
+          <div>
+            <time><u>11 March 2020</u></time><br>World Health Organization declared Covid-19 a pandemic
+          </div>
+        </li>
+        <li>
+          <div>
+            <time><u>2 April 2020</u></time><br>Confirmed cases of Covid-19 hit 1 million worldwide
+          </div>
+        </li>
+        <li>
+        </li>
+      </ol>
+    </section>
 
+    <div id="visualisation"></div>
     <h3><u>Covid-19 situation</u></h3>
     <div class = "container">
       <p class = "livecase"></p>
       <p class = "livedeaths"><i></i></p>
       <p class = "liverecovered"><i></i></p>
     </div>
+
     <p>Number of Cases in the last year</p>
     <svg class="cases"></svg>
     
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
   <script src="indexscript.js"></script>
-  <script src="timelinescript.js"></script>
   <script src="https://d3js.org/d3.v7.min.js"></script>
   </body>
 </html>
