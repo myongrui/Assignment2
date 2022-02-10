@@ -26,7 +26,9 @@ Technologies Used
 
 Testing
 -------
-
+-   checking if there are ay errors in navigation bar and if all the links work
+-   checked if timeline loads out correctly
+-   checked if data displays correctly
 Credits
 -------
 -  [Coronavirus](https://www.who.int/health-topics/coronavirus#tab=tab_1)
