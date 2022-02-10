@@ -1,0 +1,11 @@
+.animation-center{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-text{
+      text-align: center;
+      margin-left: 50;
+      font-size: 25px;
+}

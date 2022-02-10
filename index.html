@@ -11,8 +11,9 @@
   </head>
 
   <title>Home</title>
+    </script>
 
-  <body class = "websitecolour">
+  <body id="content" class = "websitecolour">
     <nav class="navbar sticky-top navbar-expand fonthovercolour" style="background-color: #4FFFB0;">
       <a class="navbar-brand navheader" href="index.html"><img src ="images/covid-19-cartoon.png"  alt="Covid-19"  style="height:55px;"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,31 +27,17 @@
           <li class="nav-item">
             <li class="nav-item">
               <a class="nav-link navwording" href="intcase.html">International</a>
-            </li>
-            <a class="nav-link navwording" href="localcase.html">Local</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link navwording" href="news.html">News</a>
           </li>
+        </li>
+        <a class="nav-link navwording" href="about.html">About</a>
+      </li>
         </ul>
       </div>
     </nav>
-
-    <h1>Welcome!</h1>
-    <h2> This is a Covid-19 Encyclopedia where we tell you all you need to know about this virus that has been destroying our lives, also providing live statistics about the virus</h2>
-    <a href="#imagelink"><img src ="images/covid-19.jpg" alt="Covid-19" title="Click to go to graph and live data for Covid-19 worldwide" class="image"></a>
-
-    <h3><u>What exactly is Covid-19 and how does it spread?</u></h3>
-    <p>Otherwise known as Coronavirus disease, is an infectious disease caused by the SARS-CoV-2 Virus. 
-      This causes most of the infected to experience mild to moderate respiratory illness and recover without requiring special treatment. 
-      Infected people will experience mild to moderate respiratory illness and can recover without any special treatment. 
-      The virus can spreads through the infected person's mouth or nose in small liquid particles.</p>
-
-    <h3><u>Origin of Covid-19 Virus</u></h3>
-    <p>Thought to be origined from animals, it is most likely a spillover infection (spread from one species to another) from bats to humans.
-      Phylogenetics estimate that SARS-CoV-2 arose in October or November 2019, phylogenetic algorithm analysis
-      have implied that it may have already been circulating in Guangdong before Wuhan, where the first human infection was confirmed.</p>
-
+    <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_uozuzdow.json" speed="1" class="image" style="height: 300;" loop autoplay>
+		</lottie-player>
     <h3 id="imagelink" style="margin-bottom:30px;"><u>Timeline of Covid-19</u></h3>
     <section class="timeline" style="margin-bottom: 40px;">
       <ol>
@@ -102,6 +89,8 @@
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
   <script src="indexscript.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="initloadingscreen.js"></script>
   </body>
 </html>

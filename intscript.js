@@ -1,3 +1,5 @@
+
+
 document.addEventListener("DOMContentLoaded", function(){
     var au = $("svg path")
     console.log(au[0])

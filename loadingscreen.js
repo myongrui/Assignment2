@@ -1,5 +1,5 @@
-setTimeout(myFunction, 5000);
+setTimeout(loadingScreen, 5000);
 
-function myFunction(){
-    href ="index.html" ;
+function loadingScreen(){
+    window.location.href ="index.html" ;
 }
