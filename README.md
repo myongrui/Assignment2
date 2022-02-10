@@ -23,6 +23,8 @@ Technologies Used
     -   This project uses **JQuery** to simplify DOM manipulation
 -   [HTML,CSS](https://html.com)
     -   This project's website is designed and styled using **HTML** and **CSS**
+-   [D3.js](https://d3js.org/)
+    -   This project uses the **JavaScript** library D3.js to produce dynamic, interactive data visualizations 
 
 Testing
 -------
