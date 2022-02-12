@@ -33,7 +33,8 @@ Testing
 -   checking if there are ay errors in navigation bar and if all the links work
 -   checked if timeline loads out correctly
 -   checked if data displays correctly
--   check if the loading screen displays out correctly
+-   check if the loading screen displays out correctly when the image on the navigation bar is clicked
+-   ensure the hover feature for international page map works 
 Credits
 -------
 -  [Coronavirus](https://www.who.int/health-topics/coronavirus#tab=tab_1)

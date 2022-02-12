@@ -1,11 +1,4 @@
 
-/*
-function loadScreen()
-{
-    $('#content').load("loadingscreen.html");
-}
-*/
-
 const api = 'https://corona.lmao.ninja/v2/historical/all?lastdays=365';
 
 document.addEventListener("DOMContentLoaded", function(event) {
