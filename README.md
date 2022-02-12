@@ -25,6 +25,8 @@ Technologies Used
     -   This project's website is designed and styled using **HTML** and **CSS**
 -   [D3.js](https://d3js.org/)
     -   This project uses the **JavaScript** library D3.js to produce dynamic, interactive data visualizations 
+-   [Lottie](https://lottiefiles.com)
+    -    This project used Lottie animations for the animations included in the website
 
 Testing
 -------
@@ -43,3 +45,5 @@ Credits
     -   The Straits Times health tab
 -  [Yahoo](https://sg.news.yahoo.com/health/)
     -   Yahoo Covid-19 updates
+-  [Covid-19 API](https://corona.lmao.ninja)
+    -   API used for Covid-19 data
