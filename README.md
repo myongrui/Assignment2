@@ -33,6 +33,7 @@ Testing
 -   checking if there are ay errors in navigation bar and if all the links work
 -   checked if timeline loads out correctly
 -   checked if data displays correctly
+-   check if the loading screen displays out correctly
 Credits
 -------
 -  [Coronavirus](https://www.who.int/health-topics/coronavirus#tab=tab_1)
@@ -45,5 +46,7 @@ Credits
     -   The Straits Times health tab
 -  [Yahoo](https://sg.news.yahoo.com/health/)
     -   Yahoo Covid-19 updates
--  [Covid-19 API](https://corona.lmao.ninja)
-    -   API used for Covid-19 data
+-  [Covid-19 API (Worldwide)](https://corona.lmao.ninja/v2/historical/all?lastdays=365)
+    -   API used for Covid-19 data worldwide
+-  [Covid-19 API (Country)](https://disease.sh/v3/covid-19/countries)
+    -   API used for Covid-19 data for each country
