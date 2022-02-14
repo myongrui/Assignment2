@@ -4,12 +4,14 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Local</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans&family=Open+Sans:wght@300&family=Prompt:wght@200&family=Roboto&display=swap"
@@ -17,57 +19,37 @@
     />
   </head>
 
-  <title>Local</title>
+  
 
   <body class="websitecolour">
-    <nav
-      class="navbar-toggler sticky-top navbar-expand fonthovercolour"
-      style="background-color: #4fffb0;"
-    >
-    <a class="navbar-brand navheader" href="loadingscreen.html"><lottie-player src="https://assets9.lottiefiles.com/packages/lf20_nxe10jqs.json" speed="1" 
-      style=
-      "display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: -10px;
-      margin-bottom: -10px;
-      width: 100px;
-      height: 65px;"  loop autoplay>
-    </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+
+    <nav class="navbar sticky-top navbar-expand-sm fonthovercolour" style="background-color: #4FFFB0;">
+      <a class="navbar-brand navheader" href="loadingscreen.html"><lottie-player src="https://assets9.lottiefiles.com/packages/lf20_nxe10jqs.json" speed="1" 
+        style=
+        "display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -10px;
+        margin-bottom: -10px;
+        width: 100px;
+        height: 65px;"  loop autoplay>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item ">
-            <a class="nav-link navwording" href="index.html"
-              >Home<span class="sr-only">(current)</span></a
-            >
-          </li>
           <li class="nav-item">
-            <a class="nav-link navwording" href="intcase.html"
-              >International</a
-            >
+            <a class="nav-link navwording" href="index.html">Home</a>
           </li>
+            <li class="nav-item">
+              <a class="nav-link navwording" href="intcase.html">International</a>
           <li class="nav-item">
             <a class="nav-link navwording" href="news.html">News</a>
           </li>
-          <li class="nav-item active">
-            <a
-              class="nav-link navwording"
-              href="about.html"
-              style="color: rgb(194, 32, 32)"
-              >About<span class="sr-only">(current)</span></a
-            >
-          </li>
+        <li class="nav-item active">
+            <a class="nav-link navwording" href="index.html" style="color:rgb(194, 32, 32);">About <span class="sr-only">(current)</span></a>
+        </li>
         </ul>
       </div>
     </nav>

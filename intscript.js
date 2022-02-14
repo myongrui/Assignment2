@@ -67,9 +67,8 @@ $(document).click(function(event){
                     $('p.liverecovered').append("<br /><em>+" + newr + "</em>")
                 }          
             })
-
     }
-    
 })
+
 
 
