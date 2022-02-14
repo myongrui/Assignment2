@@ -3,10 +3,7 @@ svg path:hover {
   transition: 0.5s;
   cursor: pointer;
 }
-svg path:active {
-  fill: yellow;
-  cursor: pointer;
-}
+
 .mapc {
   width: 90%;
   height: auto;
