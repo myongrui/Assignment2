@@ -1,5 +1,6 @@
 .navbar {
-  width:auto; 
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .websitecolour {
   background-color: bisque;
