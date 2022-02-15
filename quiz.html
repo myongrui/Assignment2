@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Local</title>
+    <title>Quiz</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -13,6 +13,7 @@
     />
     <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="quiz.css" rel="stylesheet" type="text/css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans&family=Open+Sans:wght@300&family=Prompt:wght@200&family=Roboto&display=swap"
       rel="stylesheet"
@@ -57,8 +58,10 @@
       </div>
     </nav>
 
+    <h1 style="margin-top: 5px;">Want to test your knowledge on Covid-19?</h1>
+    <h2>Try this quiz now!</h2>
     <div id="quiz"></div>
-    <button id="submit">Submit Quiz</button>
+    <button id="submit" class="button" onclick= "ani()">Submit Quiz</button>
     <div id="results"></div>
 
 
@@ -72,7 +75,7 @@
       integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
+    <script src="quizscript.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>
 </html>
