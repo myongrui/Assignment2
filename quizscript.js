@@ -65,6 +65,18 @@ function showResults(){
   
     // show number of correct answers
     resultsContainer.innerHTML = "<b>Score: </b>"+ `<b>${numCorrect} / ${myQuestions.length}</b>`;
+    if(numCorrect > 3)
+    {
+      $('p.message').text("Goodjob, Keep it up!");
+    }
+    else if(numCorrect ==3)
+    {
+      $('p.message').text("Almost there!")
+    }
+    else
+    {
+      $('p.message').text("Unlucky, Try again next time!");
+    }
   }
 
 const myQuestions = [

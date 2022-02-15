@@ -24,7 +24,7 @@
 
   <body class="websitecolour">
 
-    <nav class="navbar sticky-top navbar-expand-sm fonthovercolour" style="background-color: #4FFFB0;">
+    <nav class="navbar sticky-top navbar-expand fonthovercolour" style="background-color: #4FFFB0;">
       <a class="navbar-brand navheader" href="loadingscreen.html"><lottie-player src="https://assets9.lottiefiles.com/packages/lf20_nxe10jqs.json" speed="1" 
         style=
         "display: block;
@@ -49,9 +49,9 @@
             <a class="nav-link navwording" href="news.html">News</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link navwording" href="quiz.html" style="color:rgb(194, 32, 32);">Quiz <span class="sr-only">(current)</span></a>
+            <a class="nav-link navwording" href="quiz.html" style="color:rgb(194, 32, 32);">Quiz<span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
             <a class="nav-link navwording" href="about.html" >About <span class="sr-only">(current)</span></a>
         </li>
         </ul>
@@ -60,9 +60,11 @@
 
     <h1 style="margin-top: 5px;">Want to test your knowledge on Covid-19?</h1>
     <h2>Try this quiz now!</h2>
-    <div id="quiz"></div>
-    <button id="submit" class="button" onclick= "ani()">Submit Quiz</button>
-    <div id="results"></div>
+    <div id="quiz" class="divquiz"></div>
+    <button id="submit" class="button">Submit Quiz</button>
+    <div id="results" class="divresult"></div>
+    <div id="message"><p class="message"><i></i></p></div>
+    
 
 
     <script

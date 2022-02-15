@@ -1,7 +1,3 @@
-div{
-    font-family: "Montserrat", sans-serif;
-    margin-left: 10px;
-}
 .question{
 	font-weight: 600;
 }
@@ -43,4 +39,22 @@ div{
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+  }
+  
+  .divquiz{
+    font-family: "Montserrat", sans-serif;
+    margin-left: 10px;
+  }
+  .divresult{
+    font-family: "Prompt", sans-serif;
+    margin-left: 10px;
+  }
+  .message
+  {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-style: italic;
+	  font-size: 17px;
   }

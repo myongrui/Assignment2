@@ -51,3 +51,6 @@ Credits
     -   API used for Covid-19 data worldwide
 -  [Covid-19 API (Country)](https://disease.sh/v3/covid-19/countries)
     -   API used for Covid-19 data for each country
+-  [Covid-19 quiz reference](https://www.medicalnewstoday.com/articles/coronavirus-myths-explored)
+    - website used for covid-19 quiz reference
+-  []
