@@ -11,3 +11,173 @@ svg path:hover {
   margin-right: auto;
   display: block;
 }
+
+.legend {
+  display: flex;
+  flex-flow: row, nowrap;
+  margin-left: 40vh;
+  margin-right: 30vh;
+  height: 30px;
+}
+
+.textlegend {
+  display: flex;
+  flex-flow: row, nowrap;
+  margin-left: 40vh;
+  margin-right: 20vh;
+  height: 25px;
+}
+
+.nodata {
+  width: 80px;
+  background-color: #eee;
+  color: #eee;
+  border: solid #000;
+  border-width: 1 1;
+  border-width: thin;
+}
+
+.spacer {
+  width: 80px;
+  color: bisque;
+}
+
+.hun {
+  width: 100px;
+  background-color: #fff7fb;
+  color: #eee;
+  border: solid #000;
+  border-width: 1 1;
+  border-width: thin;
+}
+
+.fivehun {
+  width: 100px;
+  background-color: #ece7f2;
+  color: #eee;
+  border: solid #000;
+  border-width: 1 1;
+  border-width: thin;
+}
+
+.thou {
+  width: 100px;
+  background-color: #d0d1e6;
+  color: #eee;
+  border: solid #000;
+  border-width: 1 1;
+  border-width: thin;
+}
+
+.fivthou {
+  width: 100px;
+  background-color: #a6bddb;
+  color: #eee;
+  border: solid #000;
+  border-width: 1 1;
+  border-width: thin;
+}
+
+.tenthou {
+  width: 100px;
+  background-color: #74a9cf;
+  color: #eee;
+  border: solid #000;
+  border-width: 1 1;
+  border-width: thin;
+}
+
+.fifthou {
+  width: 100px;
+  background-color: #3690c0;
+  color: #eee;
+  border: solid #000;
+  border-width: 1 1;
+  border-width: thin;
+}
+
+.hundthou {
+  width: 100px;
+  background-color: #0570b0;
+  color: #eee;
+  border: solid #000;
+  border-width: 1 1;
+  border-width: thin;
+}
+
+.halfmil {
+  width: 100px;
+  background-color: #045a8d;
+  color: #eee;
+  border: solid #000;
+  border-width: 1 1;
+  border-width: thin;
+}
+
+.million {
+  width: 100px;
+  background-color: #023858;
+  color: #eee;
+  border: solid #000;
+  border-width: 1 1;
+  border-width: thin;
+}
+
+.nd {
+  padding-left: 0;
+  width: 80px;
+  margin-bottom: 0;
+}
+
+.text {
+  padding-left: 0;
+  width: 100px;
+  height: 20px;
+  margin-bottom: 0;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-left: 50px;
+}
+
+.container p {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 0 5px;
+}
+
+.container p i {
+  color: rgba(255, 21, 0, 1);
+  font-weight: 1000;
+  font-size: 0.75em;
+  margin: 0;
+  padding: 0;
+}
+
+.container p em {
+  color: rgba(0, 255, 55, 1);
+  font-weight: 1000;
+  font-size: 0.75em;
+  margin: 0;
+  padding: 0;
+}

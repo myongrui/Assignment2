@@ -7,7 +7,7 @@
   margin-bottom: 15px;
 }
 .navwording {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Epilogue", sans-serif;
   font-weight: bold;
   color: black;
   font-size: 20px;
@@ -23,7 +23,7 @@ h2 {
 }
 h3 {
   margin: 20px;
-  font-family: "Prompt", sans-serif;
+  font-family: "Epilogue", sans-serif;
   font-weight: bold;
 }
 
@@ -38,7 +38,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 350px;
-  height:350px;
+  height: 350px;
   border-radius: 5%;
 }
 .fonthovercolour :hover {
