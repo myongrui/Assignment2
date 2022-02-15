@@ -44,10 +44,12 @@
   .divquiz{
     font-family: "Montserrat", sans-serif;
     margin-left: 10px;
+    font-size: 20px;
   }
   .divresult{
     font-family: "Prompt", sans-serif;
     margin-left: 10px;
+    font-size: 20px;
   }
   .message
   {

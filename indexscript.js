@@ -22,7 +22,7 @@ function parseData(data) {
     }
     return arr;
 }
-
+/*
 function drawChart(data) {
 var svgWidth = 750, svgHeight = 750;
 var margin = { top: 30, right: 20, bottom: 30, left: 100 };
@@ -74,7 +74,7 @@ g.append("path")
     .attr("stroke-width", 1.5)
     .attr("d", line);
 }
-
+*/
 let covidapi ='https://disease.sh/v3/covid-19/all';
 
 fetch(covidapi)

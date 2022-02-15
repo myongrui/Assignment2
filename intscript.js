@@ -114,8 +114,8 @@ $(document).click(function(event){
                             });
                         }
                         return arr;
-                    }
-
+                    }  
+                    /*
                     function drawChart(data) {
                     var svgWidth = 750, svgHeight = 750;
                     var margin = { top: 30, right: 20, bottom: 30, left: 100 };
@@ -167,8 +167,10 @@ $(document).click(function(event){
                         .attr("stroke-width", 1.5)
                         .attr("d", line);
                     }
+                    */
 
-                }          
+                }   
+                 
             })
         
     }

@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
-    <link href="normalize.css" rel="stylesheet" type="text/css" />
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="index.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans&family=Open+Sans:wght@300&family=Prompt:wght@200&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Montserrat:wght@300&family=Noto+Sans&family=Open+Sans:wght@300&family=Prompt:wght@200&display=swap" rel="stylesheet">
+    
   </head>
 
   <body class = "websitecolour">
@@ -17,7 +20,7 @@
       <a class="navbar-brand navheader" href="loadingscreen.html"><lottie-player src="https://assets9.lottiefiles.com/packages/lf20_nxe10jqs.json" speed="1" 
         style=
         "display: block;
-        margin-left: auto;
+        margin-left: 10px;
         margin-right: auto;
         margin-top: -10px;
         margin-bottom: -10px;
@@ -27,7 +30,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse d-flex flex-column flex-sm-row" id="Navbar">
+      <div class="collapse navbar-collapse d-flex flex-column flex-sm-row" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link navwording" href="index.html" style="color:rgb(194, 32, 32);">Home <span class="sr-only">(current)</span></a>
@@ -109,13 +112,13 @@
     
     <div id="visualisation"></div>
     <h3>Covid-19 situation<h3>
-    <div class = "container">
+    <div class = "container" style="font-weight: lighter;">
       <p class = "livecase"></p>
       <p class = "livedeaths"><i></i></p>
       <p class = "liverecovered"><i></i></p>
     </div>
 
-    <h3>Number of Cases in the last year</h3>
+    <!--<h3>Number of Cases in the last year</h3>-->
     <svg class="cases"></svg>
     
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
