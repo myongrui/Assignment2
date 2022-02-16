@@ -1,3 +1,13 @@
+
+.indexani{
+  height: 300;   
+  display: block; 
+  margin-top: -90px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+  height: 500px;
+}
 .container {
   display: flex;
   flex-flow: row, wrap;
@@ -27,6 +37,7 @@
   margin: 0;
   padding: 0;
 }
+
 
 .timeline ul li {
   list-style-type: none;
@@ -117,3 +128,37 @@
   visibility: visible;
   opacity: 1;
 }
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px; /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .indexani{
+    opacity: 0;
+    margin-top: -10vh;
+    height: 100px;
+  }
+  .timeline ul li {
+    margin-left: 20px;
+  }
+   
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+   
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+   
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
+  }
+}
+
