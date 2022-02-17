@@ -2168,36 +2168,10 @@
       <circle cx="673.5" cy="724.1" id="1"></circle>
       <circle cx="1798.2" cy="719.3" id="2"></circle>
     </svg>
+
+    <img style = "display: block; width: 50%; margin-left: auto;
+    margin-right: auto;" src="color_legend.jpg" alt="color legned">
     
-    <div class="textlegend">
-      <ol class="nd">No Data</ol>
-      <ol class="nd"></ol>
-      <ol class="text">0</ol>
-      <ul class="text">100</ul>
-      <ul class="text">500</ul>
-      <ul class="text">1,000</ul>
-      <ul class="text">5,000</ul>
-      <ul class="text">10,000</ul>
-      <ul class="text">50,000</ul>
-      <ul class="text">100,000</ul>
-      <ul class="text">500,000</ul>
-      <ul class="text">1 million</ul>
-    </div>
-
-    <div class="legend">
-      <ol class="nodata">'</ol>
-      <ol class="spacer">'</ol>
-      <ul class="hun"></ul>
-      <ul class="fivehun"></ul>
-      <ul class="thou"></ul>
-      <ul class="fivthou"></ul>
-      <ul class="tenthou"></ul>
-      <ul class="fifthou"></ul>
-      <ul class="hundthou"></ul>
-      <ul class="halfmil"></ul>
-      <ul class="million"></ul>
-    </div>
-
     <h2 class="cname" style="text-align:center;"></h2>
     <div class = "container" style="margin: 0 auto;">
       <p class = "livecase"></p>
@@ -2205,7 +2179,53 @@
       <p class = "liverecovered"><i></i></p>
     </div>
 
-    <svg class="cases"></svg>
+    <div class="bcontainer">
+      <canvas id="myCanvas"></canvas>
+      <legend for="myCanvas"></legend>
+    </div>
+
+    <h2 class="Africa" style="text-align:center;"></h2>
+    <div class = "container" style="margin: 0 auto;">
+      <p class = "livecaseaf"></p>
+      <p class = "livedeathsaf"><i></i></p>
+      <p class = "liverecoveredaf"><i></i></p>
+    </div>
+
+    <h2 class="Asia" style="text-align:center;"></h2>
+    <div class = "container" style="margin: 0 auto;">
+      <p class = "livecaseas"></p>
+      <p class = "livedeathsas"><i></i></p>
+      <p class = "liverecoveredas"><i></i></p>
+    </div>
+
+    <h2 class="AusOce" style="text-align:center;"></h2>
+    <div class = "container" style="margin: 0 auto;">
+      <p class = "livecaseao"></p>
+      <p class = "livedeathsao"><i></i></p>
+      <p class = "liverecoveredao"><i></i></p>
+    </div>
+
+    <h2 class="Europe" style="text-align:center;"></h2>
+    <div class = "container" style="margin: 0 auto;">
+      <p class = "livecaseeu"></p>
+      <p class = "livedeathseu"><i></i></p>
+      <p class = "liverecoveredeu"><i></i></p>
+    </div>
+
+
+    <h2 class="NA" style="text-align:center;"></h2>
+    <div class = "container" style="margin: 0 auto;">
+      <p class = "livecasena"></p>
+      <p class = "livedeathsna"><i></i></p>
+      <p class = "liverecoveredna"><i></i></p>
+    </div>
+
+    <h2 class="SA" style="text-align:center;"></h2>
+    <div class = "container" style="margin: 0 auto;">
+      <p class = "livecasesa"></p>
+      <p class = "livedeathssa"><i></i></p>
+      <p class = "liverecoveredsa"><i></i></p>
+    </div>
 
     <script src="intscript.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
