@@ -2,11 +2,11 @@
 
 Project Name and Agenda
 ----------------------- 
-Our project will be based on Covid-19. It will consist of real time and accurate information on the Covid-19 situation internationally. It allows the user to be aware of the Covid-19 situation in the different parts of the world. This project will also allow the users to read up on news and articles about Covid-19 and some facts in which they can prevent themselves from catching the virus. This simple but fun and engaging website is targeted to spread more awareness about Covid-19 situation in the world and dispell some of the rumours it has. It shows collated data on the Covid-19 situation globally and for each continent and country. It aims to target an audience of all ages as it will be suitable for all ages to visit.
+Our project will be based on Covid-19. It consists of real time and accurate information on the Covid-19 situation internationally. It allows the user to be aware of the Covid-19 situation in the different parts of the world. This project will also allow the users to read up on news and articles about Covid-19 from reliable sources. Alongside that, they will be able to learn how they can prevent themselves from catching the virus. This simple but fun and engaging website is targeted to spread more awareness about Covid-19 situation in the world and dispell some of the rumours it has. It shows collated data on the Covid-19 situation globally and for each continent and country. It aims to target an audience of all ages as it will be suitable for all ages to visit.
 
 Design Process
 --------------
--   As a user that first visits the website, I would want to see a website that has a pleasant colour combination to look at
+-   As a user that first visits the website, I would want to see a website that has a pleasant colour combination to look at and nice fonts
 -   As a user, I would want a website such as this genre to be informative but not too wordy and boring
 -   As a user, I would also want the website to be neatly organised throughout so that I would not be lost while navigating through the website
 -   As a user, I would want to be able to see that the news are reliable sources so that I would not be fed with false information
@@ -51,15 +51,35 @@ Technologies Used
 
 Testing
 -------
--   checking if there are ay errors in navigation bar and if all the links work
--   check if the hover feature for navigation bar works
--   checked if timeline loads out correctly
--   checked if data displays correctly and data boxes are responsive
--   check if the loading screen displays out correctly when the image on the navigation bar is clicked
--   ensure covid-19 display feature for international page map works
--   ensure that the links to all the websites linked works and if it is responsive 
--   check if all animations work when page is refreshed and if it is too big for any width 
--   ensure loading screen works fine for all widths
+- Navigation Bar  
+    -   checking if there are errors in navigation bar and if all the links work
+    -   check if the hover feature for navigation bar works
+
+- Timeline (Home page)
+    -   checked if timeline loads out correctly
+
+- World Map, Bar/Line graph and data display containers (International Page)
+    -   ensure world map image is centered and is responsive
+    -   checked if data displays correctly and data boxes are responsive
+    -   check if the loading screen displays out correctly when the image on the navigation bar is clicked
+    -   ensure covid-19 display feature for international page map works
+
+- News Page
+    -   ensure that the links to all the websites linked works and if it is responsive 
+
+- Animations and loading screen
+    -   check if all animations work when page is refreshed and if it is too big for any width 
+    -   ensure loading screen works fine for all widths
+- Quiz Page
+    -   ensure that all questions are displayed correctly with the correct choices
+    -   ensure that the radio buttons work
+    -   ensure that the score is displayed correctly
+    -   ensure that the questions answered correctly are highlighted green and those wrong, red
+    -   ensure that the message for each score is displayed correctly
+    
+- About Page
+    -   ensure all links and animation work and are responsive
+    -   ensure that email link correctly opens the default mail client
  
 Credits
 -------
@@ -80,8 +100,9 @@ Credits
 -  [Covid-19 API (Country)](https://disease.sh/v3/covid-19/countries)
     -   API used for Covid-19 data for each country
 -  [Covid-19 quiz reference](https://www.medicalnewstoday.com/articles/coronavirus-myths-explored)
-    - website used for covid-19 quiz reference
+    -   website used for covid-19 quiz reference
 
 GitHub Link
 -----------
--
+- [Github Link](https://github.com/myongrui/Assignment2.git)
+    -   link for Github repository

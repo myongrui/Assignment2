@@ -81,6 +81,7 @@
 /*odd*/
 .timeline ul li:nth-child(odd) div {
   left: 45px;
+  width: 400px;
 }
  
 .timeline ul li:nth-child(odd) div::before {
@@ -91,7 +92,8 @@
 
 /*even*/
 .timeline ul li:nth-child(even) div {
-  left: -490px;
+  left: -440px;
+  width: 400px;
 }
  
 .timeline ul li:nth-child(even) div::before {
@@ -128,6 +130,7 @@
   visibility: visible;
   opacity: 1;
 }
+
 @media screen and (max-width: 900px) {
   .timeline ul li div {
     width: 250px;
