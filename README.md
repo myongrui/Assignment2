@@ -1,8 +1,4 @@
-# Assignment2
-
-Project Name
-------------
-Covid-19 Hub
+# Project Name --> Covid-19 Hub
 
 Agenda
 ----------------------- 
