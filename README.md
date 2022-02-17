@@ -18,6 +18,7 @@ Design Process
 Features
 --------
 ### Existing Features
+---------------------
 -   animations all over the website to make it less boring
 -   navigation bar to navigate around the page (changes colour upon hovering over page)
 -   animated website logo (linked to loading screen)
@@ -32,7 +33,6 @@ Features
 ### Features Left To Implement
 ------------------------------
 -   To implement in the future
-    --------------------------
     -   Include local map to include the Covid-19 situation in Singapore
     -   Include a Complex game for users to 'destroy the Covid-19 virus'
 
