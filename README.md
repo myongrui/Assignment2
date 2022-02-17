@@ -1,4 +1,4 @@
-# Project Name --> Covid-19 Hub
+# Covid-19 Hub
 
 Agenda
 ----------------------- 
