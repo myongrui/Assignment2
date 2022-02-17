@@ -46,7 +46,7 @@ Technologies Used
     -   This project uses the **JavaScript** library D3.js to produce dynamic, interactive data visualizations 
 -   [Lottie](https://lottiefiles.com)
     -    This project used Lottie animations for the animations included in the website
--   [Svg](https://www.w3.org/Graphics/SVG/)
+-   [SVG](https://www.w3.org/Graphics/SVG/)
     -   This project utilises Scalable Vector Graphics (SVG) for interactivity using maps.
 
 Testing
