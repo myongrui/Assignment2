@@ -11,7 +11,7 @@
   display: flex;
   flex-flow: row, wrap;
   padding-left: -30px;
-  margin-left: 10px;
+  margin-left: -20px;
   }
 
 .container p {
@@ -135,6 +135,17 @@
   .timeline ul li:nth-child(even) div {
     left: -289px; /*250+45-6*/
   }
+}
+
+@media screen and (max-width: 800px) {
+.casesdisplay
+{
+  display: none;
+}
+.cases{
+  display: none;
+}
+
 }
 
 @media screen and (max-width: 600px) {
