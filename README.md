@@ -30,6 +30,7 @@ Features
 -   links to both our student emails that that activates the default mail client on the computer for sending an e-mail
 
 ### Features Left To Implement
+------------------------------
 -   To implement in the future
     --------------------------
     -   Include local map to include the Covid-19 situation in Singapore
