@@ -1,6 +1,10 @@
 # Assignment2
 
-Project Name and Agenda
+Project Name
+------------
+Covid-19 Hub
+
+Agenda
 ----------------------- 
 Our project will be based on Covid-19. It consists of real time and accurate information on the Covid-19 situation internationally. It allows the user to be aware of the Covid-19 situation in the different parts of the world. This project will also allow the users to read up on news and articles about Covid-19 from reliable sources. Alongside that, they will be able to learn how they can prevent themselves from catching the virus. This simple but fun and engaging website is targeted to spread more awareness about Covid-19 situation in the world and dispell some of the rumours it has. It shows collated data on the Covid-19 situation globally and for each continent and country. It aims to target an audience of all ages as it will be suitable for all ages to visit.
 
