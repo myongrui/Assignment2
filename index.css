@@ -180,10 +180,17 @@
   }
   .container {
     display: flex;
-    flex-flow: row, wrap;
+    flex-flow: row;
   }
   h3{
   padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-flow: wrap;
   }
 }
 
