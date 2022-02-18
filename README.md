@@ -83,24 +83,26 @@ Testing
  
 Credits
 -------
--  [Coronavirus](https://www.who.int/health-topics/coronavirus#tab=tab_1)
+-   [Coronavirus](https://www.who.int/health-topics/coronavirus#tab=tab_1)
     -   World Health Organization Covid-19 tab
--  [History of Covid](https://en.wikipedia.org/wiki/COVID-19#History)
+-   [History of Covid](https://en.wikipedia.org/wiki/COVID-19#History)
     -   Wikipedia Covid-19 page
--  [Healthline](https://www.healthline.com/health/coronavirus-covid-19#)
+-   [Healthline](https://www.healthline.com/health/coronavirus-covid-19#)
     -   Everything You Should Know About the 2019 Coronavirus and COVID-19
--  [TheStraitsTimes](https://www.straitstimes.com/singapore/health)
+-   [The Straits Times](https://www.straitstimes.com/singapore/health)
     -   The Straits Times health tab
--  [Yahoo](https://sg.news.yahoo.com/health/)
+-   [Yahoo](https://sg.news.yahoo.com/health/)
     -   Yahoo Covid-19 updates
--  [Covid-19 API (Worldwide)](https://corona.lmao.ninja/v2/historical/all?lastdays=365)
+-   [Covid-19 API (Worldwide)](https://corona.lmao.ninja/v2/historical/all?lastdays=365)
     -   API used for Covid-19 data worldwide
--  [Covid-19 API (Continent)](https://corona.lmao.ninja/v2/continents)
+-   [Covid-19 API (Continent)](https://corona.lmao.ninja/v2/continents)
     -   API used for Covid-19 data for each continent
--  [Covid-19 API (Country)](https://disease.sh/v3/covid-19/countries)
+-   [Covid-19 API (Country)](https://disease.sh/v3/covid-19/countries)
     -   API used for Covid-19 data for each country
--  [Covid-19 quiz reference](https://www.medicalnewstoday.com/articles/coronavirus-myths-explored)
+-   [Covid-19 quiz reference](https://www.medicalnewstoday.com/articles/coronavirus-myths-explored)
     -   website used for covid-19 quiz reference
+-   [w3 schools](https://www.w3schools.com/)
+    -   reference for some of the codes (news link display with logo etc.)
 
 GitHub Link
 -----------
