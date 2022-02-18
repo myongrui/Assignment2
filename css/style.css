@@ -1,4 +1,4 @@
-.logo{
+.logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -65,5 +65,4 @@ p {
   justify-content: center;
 }
 @media screen and (max-width: 600px) {
-
 }
