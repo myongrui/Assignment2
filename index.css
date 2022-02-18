@@ -10,8 +10,7 @@
 .container {
   display: flex;
   flex-flow: row;
-  padding-left: -30px;
-  margin-left: -20px;
+  padding: 10px;
   }
 
 .container p {
@@ -129,6 +128,9 @@
   transform: none;
   visibility: visible;
   opacity: 1;
+}
+.alignleft{
+margin-right: 100px;
 }
 
 @media screen and (max-width: 900px) {
