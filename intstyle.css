@@ -83,7 +83,7 @@ legend {
 @media screen and (max-width: 400px) {
   .legend {
     display: flex;
-    flex-flow: row, nowrap;
+    flex-flow: nowrap;
     margin: 0 auto;
     height: 30px;
   }
