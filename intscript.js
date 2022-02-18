@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function(){
             
             //draw legend
             barIndex = 0;
-            var legend = document.querySelector("legend[for='myCanvas']");
+            var legend = document.querySelector("div[class=legend]");
             var ul = document.createElement("ul");
             legend.append(ul);
             for (categ in this.options.data){
