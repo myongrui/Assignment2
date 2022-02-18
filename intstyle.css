@@ -29,8 +29,7 @@ h1 {
 
 .container {
   display: flex;
-  flex-flow: row, wrap;
-  padding-left: -30px;
+  flex-flow: wrap;
   margin-left: 10px;
   justify-content: center;
 }
@@ -116,7 +115,7 @@ legend {
 @media screen and (max-width: 600px) {
   .legend {
     display: flex;
-    flex-flow: row, nowrap;
+    flex-flow: nowrap;
     margin: 0 auto;
     height: 30px;
   }
@@ -133,7 +132,7 @@ legend {
     background-color: #eee;
     color: #eee;
     border: solid #000;
-    border-width: 1 1;
+    border-width: 1px 1px;
     border-width: thin;
     margin-left: 0px;
   }
@@ -148,7 +147,7 @@ legend {
     background-color: #fff7fb;
     color: #eee;
     border: solid #000;
-    border-width: 1 1;
+    border-width: 1px 1px;
     border-width: thin;
   }
 
@@ -157,7 +156,7 @@ legend {
     background-color: #ece7f2;
     color: #eee;
     border: solid #000;
-    border-width: 1 1;
+    border-width: 1px 1px;
     border-width: thin;
   }
 
@@ -166,7 +165,7 @@ legend {
     background-color: #d0d1e6;
     color: #eee;
     border: solid #000;
-    border-width: 1 1;
+    border-width: 1px 1px;
     border-width: thin;
   }
 
@@ -175,7 +174,7 @@ legend {
     background-color: #a6bddb;
     color: #eee;
     border: solid #000;
-    border-width: 1 1;
+    border-width: 1px 1px;
     border-width: thin;
   }
 
@@ -184,7 +183,7 @@ legend {
     background-color: #74a9cf;
     color: #eee;
     border: solid #000;
-    border-width: 1 1;
+    border-width: 1px 1px;
     border-width: thin;
   }
 
@@ -193,7 +192,7 @@ legend {
     background-color: #3690c0;
     color: #eee;
     border: solid #000;
-    border-width: 1 1;
+    border-width: 1px 1px;
     border-width: thin;
   }
 
@@ -202,7 +201,7 @@ legend {
     background-color: #0570b0;
     color: #eee;
     border: solid #000;
-    border-width: 1 1;
+    border-width: 1px 1px;
     border-width: thin;
   }
 
@@ -211,7 +210,7 @@ legend {
     background-color: #045a8d;
     color: #eee;
     border: solid #000;
-    border-width: 1 1;
+    border-width: 1px 1px;
     border-width: thin;
   }
 
@@ -220,7 +219,7 @@ legend {
     background-color: #023858;
     color: #eee;
     border: solid #000;
-    border-width: 1 1;
+    border-width: 1px 1px;
     border-width: thin;
   }
 
@@ -259,5 +258,9 @@ legend {
 @media screen and (max-width: 900px) {
   .bcontainer {
     display: none;
+  }
+  .container {
+    display: flex;
+    flex-flow: wrap;
   }
 }
