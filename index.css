@@ -1,5 +1,5 @@
 .indexani{
-  height: 300;   
+  height: 300px;   
   display: block; 
   margin-top: -90px;
   margin-left: auto;
@@ -9,7 +9,7 @@
 }
 .container {
   display: flex;
-  flex-flow: row, wrap;
+  flex-flow: row;
   padding-left: -30px;
   margin-left: -20px;
   }
@@ -133,10 +133,14 @@
 
 @media screen and (max-width: 900px) {
   .timeline ul li div {
-    width: 250px;
+    width: 120px;
   }
   .timeline ul li:nth-child(even) div {
-    left: -289px; /*250+45-6*/
+    left: -340px; 
+    width: 300px;
+  }
+  .timeline ul li:nth-child(odd) div {
+    width: 300px;
   }
 }
 
@@ -177,11 +181,9 @@
   .container {
     display: flex;
     flex-flow: row, wrap;
-    padding-left: -10px;
-    margin-left: -30px;
   }
   h3{
   padding-left: 0px;
-}
+  }
 }
 
